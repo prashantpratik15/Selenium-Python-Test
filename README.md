@@ -26,9 +26,6 @@ Setup your machine.
 * Run tests in firefox: ```python3 -m pytest testCases/add_update_pdf_and_validate.py -v -s   --browser=firefox```
 * Run without browser parameter , default is chrome: ```python3 -m pytest testCases/add_update_pdf_and_validate.py -v -s ```
 
-#### Report
-* Report will be found here: ```/output/report.html```
----
 
 ### Tests
 1. **[TestCase-1]:** Upload Two PDF Files and validate count
