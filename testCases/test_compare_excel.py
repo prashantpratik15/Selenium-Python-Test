@@ -11,7 +11,7 @@ class TestCompareExcelFiles:
 
         result = file_comparer.compare_excel_files(file1, file2)
 
-        assert result is True, f"Excel files {file1} and {file2} are not identical."
+        assert result is True, f"Excel files {file1} and {file2} are not identical. "
 
     def test_compare_excel_different(self):
         file_comparer = excelDetails()

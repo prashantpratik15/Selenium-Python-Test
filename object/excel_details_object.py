@@ -2,7 +2,7 @@ import pandas as pd
 
 class excelDetails:
     def __init__(self):
-        pass  # Initialize any attributes if needed
+        pass  
 
     def compare_excel_files(self, file1, file2):
         # Load the Excel files into pandas DataFrames

@@ -1,4 +1,3 @@
-#document.readyState  is used to check web page is completely load or not
 import time
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import *

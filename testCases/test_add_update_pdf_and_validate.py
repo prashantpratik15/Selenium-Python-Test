@@ -10,7 +10,7 @@ from selenium import webdriver
 class TestFileUpload:
 
     def test_upload_valid_files_and_verify_count(self, driver):
-        # Initialize the UploadFile class with the driver
+        #Initialize the UploadFile class with the driver 
         upload = UploadFile(driver)
         upload.navigate()  # Navigate to the page
         upload.upload_files_and_verify_the_visibility_of_files_on_screen()
