@@ -22,11 +22,13 @@ Setup your machine.
     c. Install Packages ```pip3 install -r requirements.txt```
 
 #### Running tests
-* Run tests in chrome: ```python3 -m pytest testCases/add_update_pdf_and_validate.py -v -s   --browser=chrome```
-* Run tests in firefox: ```python3 -m pytest testCases/add_update_pdf_and_validate.py -v -s   --browser=firefox```
+* Run tests in chrome: ```python3 -m pytest testCases/test_add_update_pdf_and_validate.py -v -s   --browser=chrome```
+* Run tests in firefox: ```python3 -m pytest testCases/test_add_update_pdf_and_validate.py -v -s   --browser=firefox```
 * Run without browser parameter , default is chrome: ```python3 -m pytest testCases/add_update_pdf_and_validate.py -v -s ```
-
+#### Running tests 3
+```python3 -m pytest testCases/test_compare_excel.py -v -s```
 
 ### Tests
 1. **[TestCase-1]:** Upload Two PDF Files and validate count
 2. **[TestCase-2]:** Upload an Invalid File Format and validate error message
+3. **[TestCase-3]:** test_compare_excel_identical and different
