@@ -2,7 +2,7 @@ import pytest
 from object.ilovepdf_details_object import UploadFile
 
 from selenium import webdriver
-import time
+
 
 
 
@@ -21,4 +21,4 @@ class TestFileUpload:
         upload.navigate()  # Navigate to the page
         upload.upload_invalid_format_value_and_verify_error_message_on_screen()
 
-        
+    
